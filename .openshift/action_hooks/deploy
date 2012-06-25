@@ -30,6 +30,6 @@ then
     chmod ugo+rwX "$OPENSHIFT_DATA_DIR/packages"
 fi
 
-ln -s "$OPENSHIFT_DATA_DIR/config" "OPENSHIFT_GEAR_DIR/php/config"
-ln -s "$OPENSHIFT_DATA_DIR/files" "OPENSHIFT_GEAR_DIR/php/files"
-ln -s "$OPENSHIFT_DATA_DIR/packages" "OPENSHIFT_GEAR_DIR/php/packages"
+ln -s "$OPENSHIFT_DATA_DIR/config" "$OPENSHIFT_GEAR_DIR/php/config"
+ln -s "$OPENSHIFT_DATA_DIR/files" "$OPENSHIFT_GEAR_DIR/php/files"
+ln -s "$OPENSHIFT_DATA_DIR/packages" "$OPENSHIFT_GEAR_DIR/php/packages"
