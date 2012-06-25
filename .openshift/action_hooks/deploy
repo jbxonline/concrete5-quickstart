@@ -30,6 +30,6 @@ then
     chmod ugo+rwX $OPENSHIFT_DATA_DIR/packages
 fi
 
-ln -sf $OPENSHIFT_DATA_DIR/config $OPENSHIFT_REPO_DIR/php-5.3/repo/php/config
+ln -sf $OPENSHIFT_DATA_DIR/config $OPENSHIFT_REPO_DIR/php/config
 ln -sf $OPENSHIFT_DATA_DIR/files $OPENSHIFT_REPO_DIR/php/files
 ln -sf $OPENSHIFT_DATA_DIR/packages $OPENSHIFT_REPO_DIR/php/packages
